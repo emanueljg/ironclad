@@ -1,0 +1,7 @@
+max_read_calendars: null           # Max number of calendars read. Default: null
+max_read_events: null              # Max number of events read from each calendar. Default: null
+
+search_for_rules: 10               # (seconds) How often ironclad searches for an active event with rules. Default: 10, Minimum: 1
+refresh_events: 300                # (seconds) How often the event list is refreshed. Default: 300, Minimum: 300
+
+rule_marker: .ironclad             # The marker/delimiter/seperator used to read ironclad rules. Default: .ironclad
